@@ -1,0 +1,39 @@
+.calzadoCardContainer {
+  /* width: 100%; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5em;
+  /* padding: 2em; */
+}
+
+.calzadoCardImage {
+  width: 250px;
+  height: 250px;
+  display: block;
+  position: relative;
+  object-fit: contain;
+}
+
+.calzadoZapato {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /* padding: 30px; */
+}
+
+.calzadoCardDivider {
+  border-top: 1px solid black;
+  width: 250px;
+  /* width: 100%; */
+  height: 1px;
+}

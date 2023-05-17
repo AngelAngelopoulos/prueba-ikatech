@@ -1,0 +1,39 @@
+.mainNavigationBarStart {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: start;
+  align-items: center;
+  padding: 1em 0.5em 1em 0.5em;
+  gap: 4em;
+}
+
+.mainNavigationBarEnd {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: end;
+  align-items: center;
+  padding: 0 0.5em 0 0.5em;
+  gap: 4em;
+}
+
+.linksContentList {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.linkContentText {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: large;
+}

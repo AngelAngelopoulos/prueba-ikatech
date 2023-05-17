@@ -1,0 +1,54 @@
+.calzadoList {
+  width: 75%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  gap: 1em;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.calzadoPage {
+  width: auto;
+  height: auto;
+  min-height: 80vh;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: start;
+  padding: 1em 8em 8em 8em;
+}
+
+.categorySide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  flex-wrap: wrap;
+  margin-right: 4em;
+  gap: 2em;
+}
+
+.informationDisplay {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2em 1em;
+  border: 0.5px solid black;
+}
+
+.informationDisplayProperties {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 1em 0;
+}

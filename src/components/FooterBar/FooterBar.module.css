@@ -1,0 +1,32 @@
+.footerBarContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: center;
+  align-items: start;
+  padding: 2em 8em;
+}
+
+.footerEmailConatner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.footerEmailBarTitle {
+  text-align: start;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.footerEmailText {
+  text-align: start;
+  /* text-transform: capitalize; */
+  font-size: large;
+}

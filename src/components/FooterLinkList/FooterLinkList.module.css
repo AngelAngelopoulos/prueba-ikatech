@@ -1,0 +1,34 @@
+.footerLinkListContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.footerLinkListSectionTitle {
+  text-align: start;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: bold;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond,
+    "Times New Roman", serif;
+}
+
+.footerLinkContentList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1em;
+}
+
+.linkContentText {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: large;
+}

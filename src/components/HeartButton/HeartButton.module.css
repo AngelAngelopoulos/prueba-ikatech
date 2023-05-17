@@ -1,0 +1,9 @@
+.calzadoCardHeartAbs {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.calzadoCardHeartRel {
+  position: relative;
+}

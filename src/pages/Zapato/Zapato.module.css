@@ -1,0 +1,44 @@
+.zapatoPage {
+  width: auto;
+  height: auto;
+  min-height: 80vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+  padding: 1em 8em 8em 8em;
+}
+
+.recommendationsBar {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.zapatoDescriptionAndPhoto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4em;
+}
+
+.zapatoDescription {
+  padding: 2em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  justify-content: start;
+  align-items: start;
+  gap: 2em;
+}

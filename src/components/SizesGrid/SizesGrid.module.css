@@ -1,0 +1,32 @@
+.sizesGridContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5em;
+  color: black;
+  font-weight: 700;
+}
+
+.sizeElementEnabled {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c6c5ca;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.sizeElementDisabled {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  width: 2.5em;
+  height: 2.5em;
+}

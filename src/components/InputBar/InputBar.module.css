@@ -1,0 +1,22 @@
+.searchBarContainer {
+  /* width: 20em; */
+  flex: 1;
+  height: 100%;
+  padding: 0.8em;
+  border: 1px solid black;
+}
+
+.searchBarInput {
+  min-width: 20em;
+  border-color: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-width: 0px;
+  border: none;
+}
+
+.searchBarButton {
+  padding: 0;
+  border: none;
+  background: none;
+}
